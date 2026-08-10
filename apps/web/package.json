@@ -1,12 +1,12 @@
 {
-  "name": "web",
+  "name": "@claude-code-tutorial/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "extract": "tsx scripts/extract-content.ts",
-    "predev": "npm run extract",
+    "predev": "pnpm run extract",
     "dev": "next dev",
-    "prebuild": "npm run extract",
+    "prebuild": "pnpm run extract",
     "build": "next build",
     "start": "next start"
   },

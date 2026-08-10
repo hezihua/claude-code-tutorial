@@ -10,7 +10,7 @@ import type {
 import { VERSION_META, VERSION_ORDER, LEARNING_PATH } from "../src/lib/constants";
 
 const WEB_DIR = path.resolve(__dirname, "..");
-const REPO_ROOT = path.resolve(WEB_DIR, "..");
+const REPO_ROOT = WEB_DIR;
 const LEGACY_AGENTS_DIR = path.join(REPO_ROOT, "agents");
 const LEGACY_DOCS_DIR = path.join(REPO_ROOT, "docs");
 const OUT_DIR = path.join(WEB_DIR, "src", "data", "generated");
