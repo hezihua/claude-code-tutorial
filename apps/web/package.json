@@ -5,7 +5,7 @@
   "scripts": {
     "extract": "tsx scripts/extract-content.ts",
     "predev": "pnpm run extract",
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "prebuild": "pnpm run extract",
     "build": "next build",
     "start": "next start"

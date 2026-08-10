@@ -228,6 +228,7 @@ __marimo__/
 # Web app
 apps/web/.next/
 apps/web/out/
+apps/portal/.next/
 .vercel
 .env*.local
 test_providers.py

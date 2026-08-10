@@ -1,11 +1,14 @@
 {
-  "name": "claude-code-tutorial",
+  "name": "ai-tutorial",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter web dev",
-    "build": "pnpm --filter web build",
-    "extract": "pnpm --filter web extract",
+    "dev": "pnpm --filter @claude-code-tutorial/portal dev",
+    "dev:web": "pnpm --filter @claude-code-tutorial/web dev",
+    "dev:all": "pnpm -r --parallel --filter=@claude-code-tutorial/portal --filter=@claude-code-tutorial/web dev",
+    "build": "pnpm --filter @claude-code-tutorial/web build",
+    "build:portal": "pnpm --filter @claude-code-tutorial/portal build",
+    "extract": "pnpm --filter @claude-code-tutorial/web extract",
     "lint": "pnpm -r lint"
   },
   "engines": {
