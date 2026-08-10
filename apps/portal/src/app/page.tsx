@@ -19,11 +19,11 @@ const projects: SubProject[] = [
     port: 3001,
   },
   {
-    name: "Blog 博客",
-    description: "Agent 开发经验、技术分享和深度文章的博客平台。即将推出。",
-    url: "#",
-    tags: ["Planned"],
-    status: "planned",
+    name: "ML 课程笔记",
+    description: "李宏毅老师机器学习课程学习笔记，涵盖机器学习、深度学习、强化学习、生成式 AI 等。",
+    url: "http://localhost:3002",
+    tags: ["Next.js", "Markdown", "课程笔记"],
+    status: "active",
     port: 3002,
   },
 ];
