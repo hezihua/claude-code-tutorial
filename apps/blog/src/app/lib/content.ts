@@ -49,15 +49,6 @@ const courseMetaOverrides: Record<
     accent: "text-blue-400",
     topics: ["线性回归", "分类问题", "神经网络", "CNN", "RNN"],
   },
-  "deep-learning": {
-    title: "实用深度学习",
-    subtitle: "ADL4R · Applied Deep Learning",
-    description: "面向实际应用的深度学习课程，涵盖图像、语音、NLP 等领域的模型架构与训练技巧。",
-    color: "from-purple-500/20 to-pink-500/20",
-    border: "border-purple-500/30",
-    accent: "text-purple-400",
-    topics: ["图像分类", "目标检测", "语义分割", "语音识别", "文本生成"],
-  },
   "reinforcement-learning": {
     title: "强化学习",
     subtitle: "Reinforcement Learning",
@@ -75,24 +66,6 @@ const courseMetaOverrides: Record<
     border: "border-amber-500/30",
     accent: "text-amber-400",
     topics: ["GAN", "Diffusion", "Transformer", "LLM", "Fine-tuning"],
-  },
-  "explainable-ai": {
-    title: "可解释 AI",
-    subtitle: "Explainable AI",
-    description: "理解黑盒模型的决策过程，学习 SHAP、LIME、注意力可视化等解释方法。",
-    color: "from-rose-500/20 to-red-500/20",
-    border: "border-rose-500/30",
-    accent: "text-rose-400",
-    topics: ["LIME", "SHAP", "Attention", "反事实解释", "因果推断"],
-  },
-  "meta-learning": {
-    title: "元学习",
-    subtitle: "Meta Learning",
-    description: "让模型学会学习，MAML、ProtoNet 等 Few-shot Learning 的核心方法。",
-    color: "from-indigo-500/20 to-violet-500/20",
-    border: "border-indigo-500/30",
-    accent: "text-indigo-400",
-    topics: ["MAML", "ProtoNet", "Matching Networks", "Learning to Learn"],
   },
 };
 

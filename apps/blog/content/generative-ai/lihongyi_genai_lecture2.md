@@ -8,7 +8,8 @@ lecture: 2
 ---
 
 > **课程来源：** 台大李宏毅《生成式人工智慧与机器学习导论》2025 Fall 第2讲  
-> **原文链接：** [YouTube 播放列表](https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT)
+> **影片链接：** [YouTube 播放列表](https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT)  
+> **投影片：** [官方网页](https://speech.ee.ntu.edu.tw/~hylee/GenAI-ML/2025-fall.php)
 
 ---
 
