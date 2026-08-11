@@ -4,7 +4,7 @@ description: '从 Prompt Engineering 到 Context Engineering，李宏毅教授�
 date: "2025-09-19"
 tags: [上下文工程, AI Agent, RAG, 大模型, 李宏毅]
 course: generative-ai
-lecture: 2
+lecture: 3
 ---
 
 > **课程来源：** 台大李宏毅《生成式人工智慧与机器学习导论》2025 Fall 第2讲  

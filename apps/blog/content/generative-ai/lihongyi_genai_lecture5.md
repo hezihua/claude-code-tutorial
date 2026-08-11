@@ -4,7 +4,7 @@ description: '從 Base Model 到實用助手，拆解大型語言模型的三階
 date: "2025-10-17"
 tags: [LLM, 預訓練, SFT, RLHF, 李宏毅]
 course: generative-ai
-lecture: 5
+lecture: 6
 ---
 
 > **課程來源：** 台大李宏毅《生成式人工智慧與機器學習導論》2025 Fall 第7講  

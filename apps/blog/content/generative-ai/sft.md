@@ -4,7 +4,7 @@ description: '拆解大型语言模型训练的第二阶段 SFT：用少量高�
 date: "2025-10-24"
 tags: [SFT, LLM, 微调, Alignment, 李宏毅]
 course: generative-ai
-lecture: 6
+lecture: 7
 ---
 
 > **课程来源：** 台大李宏毅《生成式人工智慧與機器學習導論》2025 Fall 第7講  

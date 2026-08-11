@@ -75,7 +75,12 @@ function parseLectureFromFile(filePath: string, courseSlug: string): LectureMeta
 
   const baseName = path.basename(filePath, ".md");
   const orderMatch = baseName.match(/^(\d+)-/);
-  const order = orderMatch ? parseInt(orderMatch[1], 10) : 999;
+  const frontmatterLecture = data.lecture as number | undefined;
+  const order = orderMatch
+    ? parseInt(orderMatch[1], 10)
+    : frontmatterLecture
+      ? frontmatterLecture
+      : 999;
   const slug = baseName.replace(/^\d+-/, "");
 
   let title: string = data.title ?? "";

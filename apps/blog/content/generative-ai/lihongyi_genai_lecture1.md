@@ -4,7 +4,7 @@ description: '从文字接龙原理到 Colab 跑通 Llama 3.2，一堂课搞懂�
 date: "2025-09-12"
 tags: [生成式AI, 大模型, LLM, 李宏毅, 机器学习]
 course: generative-ai
-lecture: 1
+lecture: 2
 ---
 
 > **课程来源：** 台大李宏毅《生成式人工智慧与机器学习导论》2025 Fall 第1讲  

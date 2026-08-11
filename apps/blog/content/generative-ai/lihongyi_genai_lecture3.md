@@ -4,7 +4,7 @@ description: '拆解 LLM 从 Prompt 到概率分布的完整链路：Tokenizatio
 date: "2025-09-26"
 tags: [LLM, Transformer, Representation Engineering, 李宏毅, 深度学习]
 course: generative-ai
-lecture: 3
+lecture: 4
 ---
 
 > **课程来源：** 台大李宏毅《生成式人工智慧与机器学习导论》2025 Fall 第3讲  

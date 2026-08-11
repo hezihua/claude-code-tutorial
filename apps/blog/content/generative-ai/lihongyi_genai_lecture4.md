@@ -4,7 +4,7 @@ description: '從 Exact Match 到 LLM-as-a-Judge，系統解析生成式 AI 評�
 date: "2025-10-03"
 tags: [AI評估, LLM, Hallucination, RAG, 李宏毅]
 course: generative-ai
-lecture: 4
+lecture: 5
 ---
 
 > **課程來源：** 台大李宏毅《生成式人工智慧與機器學習導論》2025 Fall 第4講  
