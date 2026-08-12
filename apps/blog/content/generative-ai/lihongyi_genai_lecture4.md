@@ -1,7 +1,7 @@
 ---
 title: '🚨 評估生成式 AI 能力時可能遇到的各種坑'
 description: '從 Exact Match 到 LLM-as-a-Judge，系統解析生成式 AI 評估中的陷阱、偏見與實務考量。'
-date: "2025-10-03"
+date: "2025-10-17"
 tags: [AI評估, LLM, Hallucination, RAG, 李宏毅]
 course: generative-ai
 lecture: 5
