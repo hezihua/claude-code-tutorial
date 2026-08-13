@@ -15,7 +15,7 @@ services:
     type: web
     env: node
     buildCommand: pnpm install --frozen-lockfile && cd apps/web && pnpm build
-    startCommand: npx serve@latest out -l $PORT
+    startCommand: npx serve@latest apps/web/out -l $PORT
     rootDir: .
     region: singapore
     plan: free
