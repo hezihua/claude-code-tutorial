@@ -4,6 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useMemo, useState } from "react";
 
+const isProd = process.env.NODE_ENV === "production";
+const portalUrl = isProd
+  ? "https://ai-portal-tww0.onrender.com"
+  : "http://localhost:3000";
+
 interface CourseMeta {
   slug: string;
   title: string;
@@ -156,7 +161,7 @@ export default function Sidebar({ courses }: { courses: CourseMeta[] }) {
 
       <div className="border-t border-neutral-800 p-4">
         <a
-          href="http://localhost:3000"
+          href={portalUrl}
           className="flex items-center gap-2 text-xs text-neutral-500 hover:text-neutral-300 transition-colors"
         >
           <span>←</span>

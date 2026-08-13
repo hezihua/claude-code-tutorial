@@ -1,5 +1,21 @@
 "use client";
 
+const isProd = process.env.NODE_ENV === "production";
+
+const prodUrls = {
+  web: "https://ai-web-hubd.onrender.com",
+  blog: "https://ai-blog-lwfn.onrender.com",
+  engineering: "https://ai-engineering-blog.onrender.com",
+};
+
+const devUrls = {
+  web: "http://localhost:3001",
+  blog: "http://localhost:3002",
+  engineering: "http://localhost:3003",
+};
+
+const urls = isProd ? prodUrls : devUrls;
+
 interface SubProject {
   name: string;
   description: string;
@@ -11,19 +27,19 @@ const projects: SubProject[] = [
   {
     name: "Claude Code Tutorial",
     description: "交互式的 AI Agent 课程学习平台，包含 20 个循序渐进的章节、代码对比、模拟运行器和多语言支持。",
-    url: "http://localhost:3001",
+    url: urls.web,
     status: "active",
   },
   {
     name: "ML 课程笔记",
     description: "李宏毅老师机器学习课程学习笔记，涵盖机器学习、深度学习、强化学习、生成式 AI 等。",
-    url: "http://localhost:3002",
+    url: urls.blog,
     status: "active",
   },
   {
     name: "AI 工程化",
     description: "AI 工程化实战笔记，涵盖 MLOps 基础、LLM 工程化、AI 基础设施、质量保障等主题。",
-    url: "http://localhost:3003",
+    url: urls.engineering,
     status: "active",
   },
 ];
