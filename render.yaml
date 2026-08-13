@@ -1,0 +1,13 @@
+services:
+  - name: ai-engineering-blog
+    type: web
+    env: node
+    buildCommand: pnpm install --frozen-lockfile && cd apps/engineering-blog && pnpm build
+    startCommand: pnpm --filter @claude-code-tutorial/engineering-blog start
+    rootDir: .
+    region: singapore
+    plan: free
+    nodeVersion: "20"
+    envVars:
+      - key: NODE_ENV
+        value: production
