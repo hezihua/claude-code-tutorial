@@ -7,7 +7,6 @@ services:
     rootDir: .
     region: singapore
     plan: free
-    nodeVersion: "20"
     envVars:
       - key: NODE_ENV
         value: production
